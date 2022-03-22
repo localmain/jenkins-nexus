@@ -51,7 +51,7 @@ pipeline {
                                 [artifactId: 'pom.my-app',
                                 classifier: '',
                                 file: "pom.xml",
-                                type: "pom"]
+                                type: "hosted"]
                             ]
                         );
                     } else {
