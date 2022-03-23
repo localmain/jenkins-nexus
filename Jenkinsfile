@@ -6,7 +6,7 @@ pipeline {
     environment {
         NEXUS_VERSION = "nexus3"
         NEXUS_PROTOCOL = "http"
-        NEXUS_URL = "54.226.50.224:8081"
+        NEXUS_URL = "44.202.219.199:8081"
         NEXUS_REPOSITORY = "maven-nexus-repo"
         NEXUS_CREDENTIAL_ID = "NEXUS"
     }
@@ -38,7 +38,7 @@ pipeline {
                         nexusArtifactUploader(
                             nexusVersion: 'nexus3',
                             protocol: 'http',
-                            nexusUrl: '54.226.50.224:8081',
+                            nexusUrl: '44.202.219.199:8081',
                             groupId: 'pom.com.mycompany.app',
                             version: 'pom.1.0-SNAPSHOT', 
                             repository: 'maven-nexus-repo',
